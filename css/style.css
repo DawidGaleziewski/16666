@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: blue;
+    position: relative;
+}
+
+.main-nav__triangle {
+    height: 5rem;
+    background: red;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    bottom: -100%;
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    list-style: none;
+    margin-right: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.main-title {
+    text-align: center;
+    font-size: 4rem;
+}
